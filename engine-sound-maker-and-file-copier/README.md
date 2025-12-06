@@ -1,4 +1,4 @@
-# Engine Sound Maker & OMSI File Tools / Nástroje pro OMSI
+# Engine Sound & File Tools for OMSI / Nástroje pro zvuky a soubory OMSI
 
 [🇨🇿 Česká verze](#česká-verze) | [🇬🇧 English Version](#english-version)
 
@@ -6,19 +6,65 @@
 
 ## 🇨🇿 Česká verze
 
-Kolekce nástrojů pro práci se zvuky a soubory v OMSI Bus Simulator.
+Kolekce nástrojů pro práci s OMSI Bus Simulator.
 
 ### 📦 Obsah
 
-#### 🎵 Engine Sound Extractor
-Extrahuje a zpracovává motorové zvuky z videa pomocí AI.
+---
+
+## 📁 OMSI File Copier
+
+**GUI nástroj pro hromadné kopírování OMSI souborů a modelů.**
+
+### 🔗 [📖 Detailní návod → README_FILE_COPIER.md](README_FILE_COPIER.md)
+
+Kompletní průvodce s krokovým návodem, tipy a řešením problémů.
+
+### ⚡ Rychlý přehled
+
+**Funguje nejlépe s výstupem z OMSI-Tools:**
+
+![Jak získat formát z OMSI-Tools](https://s3-server.ente.odjezdy.online/raw/mPTh37.gif)
+
+```
+Sceneryobjects\149_Warszawa\Bloki\Blok_Kocjana_1\BL1.sco
+Sceneryobjects\149_Warszawa\Bloki\Blok_Kocjana_2\BL2.sco
+Sceneryobjects\149_Warszawa\Bloki\Blok_Lazurowa_2\Bl_Laz_2.sco
+Sceneryobjects\149_Warszawa\Bloki\Blok_Lazurowa_3\Bl_Laz_3.sco
+Sceneryobjects\251_VelkeOpatovice-Kninice\Budka_CTK.sco
+```
+
+**Hlavní funkce:**
+- 📋 Automatická detekce root složek
+- 🔄 Hromadné kopírování sceneryobjects
+- 📊 Progress tracking
+- ✅ Verifikace zkopírovaných souborů
+- 🔗 Kompatibilní s OMSI-Tools výstupem
+
+**Rychlý start:**
+```bash
+pip install -r requirements.txt
+python omsi_file_copier.py
+```
+
+**📖 Pro detailní návod viz [README_FILE_COPIER.md](README_FILE_COPIER.md)**
+
+---
+
+## 🎵 Engine Sound Extractor
+
+**Extrahuje a zpracovává motorové zvuky z videa pomocí AI.**
+
+### 🔗 [📖 Detailní TUI návod → README_TUI.md](README_TUI.md)
+
+### ⚡ Rychlý přehled
 
 **Tři způsoby použití:**
 - 🖥️ **GUI** - Drag & drop aplikace pro Windows (`engine_sound_extractor.py`)
 - 💻 **TUI** - Terminálová verze (`engine_extractor_tui.py`)
 - ☁️ **Google Colab** - Cloud s GPU zdarma (`Engine_Sound_Extractor_Colab.ipynb`)
 
-**Funkce:**
+**Hlavní funkce:**
 - 🤖 **AI Separace (Demucs)** - Odstraní hlas, hudbu, okolní hluk
 - 🎯 **AI Klasifikace (YAMNet)** - Přesná detekce motorových zvuků
 - 🔧 **Klasický noise reduction** - Rychlá metoda
@@ -34,51 +80,9 @@ Extrahuje a zpracovává motorové zvuky z videa pomocí AI.
 - Mercedes OM906, Cummins ISBe/ISL
 - Obecné 4V/6V diesely
 
-#### 📁 OMSI File Copier
-GUI nástroj pro kopírování OMSI souborů a modelů.
-
-**Funguje nejlépe s výstupem z OMSI-Tools:**
-
-![Jak získat formát z OMSI-Tools](https://s3-server.ente.odjezdy.online/raw/mPTh37.gif)
-
-```
-Sceneryobjects\149_Warszawa\Bloki\Blok_Kocjana_1\BL1.sco
-Sceneryobjects\149_Warszawa\Bloki\Blok_Kocjana_2\BL2.sco
-Sceneryobjects\149_Warszawa\Bloki\Blok_Lazurowa_2\Bl_Laz_2.sco
-Sceneryobjects\149_Warszawa\Bloki\Blok_Lazurowa_3\Bl_Laz_3.sco
-Sceneryobjects\251_VelkeOpatovice-Kninice\Budka_CTK.sco
-```
-
-**Funkce:**
-- 📋 Automatická detekce root složek
-- 🔄 Hromadné kopírování sceneryobjects
-- 📊 Progress tracking
-- ✅ Verifikace zkopírovaných souborů
-- 🔗 Kompatibilní s OMSI-Tools výstupem
-
 ---
 
 ### 🚀 Rychlý start
-
-#### Engine Sound Extractor
-
-**GUI verze (Windows):**
-```bash
-pip install -r requirements.txt
-python engine_sound_extractor.py
-```
-
-**TUI verze (všechny platformy):**
-```bash
-pip install -r requirements_tui.txt
-python engine_extractor_tui.py -i  # Interaktivní režim
-```
-
-**Google Colab (doporučeno pro AI):**
-1. Otevři `Engine_Sound_Extractor_Colab.ipynb` v Google Colab
-2. Runtime → Change runtime type → **GPU**
-3. Runtime → Run all
-4. Nahraj video a počkej na výsledky
 
 #### OMSI File Copier
 
@@ -87,9 +91,30 @@ pip install -r requirements.txt
 python omsi_file_copier.py
 ```
 
+#### Engine Sound Extractor (GUI)
+
+```bash
+pip install -r requirements.txt
+python engine_sound_extractor.py
+```
+
+#### Engine Sound Extractor (TUI - všechny platformy)
+
+```bash
+pip install -r requirements_tui.txt
+python engine_extractor_tui.py -i  # Interaktivní režim
+```
+
+#### Engine Sound Extractor (Google Colab - doporučeno pro AI)
+
+1. Otevři `Engine_Sound_Extractor_Colab.ipynb` v Google Colab
+2. Runtime → Change runtime type → **GPU**
+3. Runtime → Run all
+4. Nahraj video a počkej na výsledky
+
 ---
 
-### 📋 TUI - Parametry CLI
+### 📋 Engine Sound Extractor - TUI Parametry CLI
 
 **Základní použití:**
 ```bash
@@ -127,7 +152,7 @@ python engine_extractor_tui.py video.mp4 \
 
 ---
 
-### 🔧 Porovnání metod
+### 🔧 Engine Sound Extractor - Porovnání metod
 
 | Metoda | Rychlost (20min video) | Kvalita | GPU |
 |--------|------------------------|---------|-----|
@@ -139,7 +164,7 @@ python engine_extractor_tui.py video.mp4 \
 
 ---
 
-### 🎯 Použití v OMSI
+### 🎯 Engine Sound Extractor - Použití v OMSI
 
 1. **Zkopíruj výsledné soubory:**
 ```
@@ -172,12 +197,17 @@ high_rpm=2400
 
 ### 🛠️ Požadavky
 
-**Pro GUI:**
+**Pro OMSI File Copier:**
+- Python 3.7+
+- PySide6
+- Balíčky: `pip install -r requirements.txt`
+
+**Pro Engine Sound Extractor (GUI):**
 - Python 3.10+
 - FFmpeg
 - Balíčky: `pip install -r requirements.txt`
 
-**Pro TUI:**
+**Pro Engine Sound Extractor (TUI):**
 - Python 3.10+
 - FFmpeg
 - Balíčky: `pip install -r requirements_tui.txt`
@@ -204,60 +234,48 @@ brew install ffmpeg
 
 **"ModuleNotFoundError"**
 ```bash
-pip install -r requirements_tui.txt  # nebo requirements.txt pro GUI
+pip install -r requirements.txt      # pro File Copier nebo GUI
+pip install -r requirements_tui.txt  # pro TUI
 ```
 
-**Špatná kvalita výstupu**
+**Engine Sound Extractor - Špatná kvalita výstupu**
 - Použij AI separaci (Demucs) místo classic
 - Zvyš noise reduction (50-80%)
 - Uprav frekvenční rozsah podle typu motoru
 
-**Pitch detection selhává (dlouhá videa)**
+**Engine Sound Extractor - Pitch detection selhává (dlouhá videa)**
 - Automaticky použije fallback (rovnoměrné rozdělení)
 - Nebo použij Google Colab s více RAM
+
+**OMSI File Copier - Podrobné řešení problémů viz [README_FILE_COPIER.md](README_FILE_COPIER.md)**
 
 ---
 
 ### 📚 Dokumentace
 
-- [README_TUI.md](README_TUI.md) - Detailní TUI dokumentace pro Engine Sound Extractor
-- [README_FILE_COPIER.md](README_FILE_COPIER.md) - Detailní návod pro OMSI File Copier
-- [Engine_Sound_Extractor_Colab.ipynb](Engine_Sound_Extractor_Colab.ipynb) - Google Colab notebook
+- **[README_FILE_COPIER.md](README_FILE_COPIER.md)** - 📁 Detailní návod pro OMSI File Copier
+- **[README_TUI.md](README_TUI.md)** - 🎵 Detailní TUI dokumentace pro Engine Sound Extractor
+- **[Engine_Sound_Extractor_Colab.ipynb](Engine_Sound_Extractor_Colab.ipynb)** - ☁️ Google Colab notebook
 
 ---
 
 ## 🇬🇧 English Version
 
-Collection of tools for working with sounds and files in OMSI Bus Simulator.
+Collection of tools for working with OMSI Bus Simulator.
 
 ### 📦 Contents
 
-#### 🎵 Engine Sound Extractor
-Extracts and processes engine sounds from videos using AI.
+---
 
-**Three usage modes:**
-- 🖥️ **GUI** - Drag & drop application for Windows (`engine_sound_extractor.py`)
-- 💻 **TUI** - Terminal version (`engine_extractor_tui.py`)
-- ☁️ **Google Colab** - Cloud with free GPU (`Engine_Sound_Extractor_Colab.ipynb`)
+## 📁 OMSI File Copier
 
-**Features:**
-- 🤖 **AI Separation (Demucs)** - Removes voice, music, ambient noise
-- 🎯 **AI Classification (YAMNet)** - Precise engine sound detection
-- 🔧 **Classic noise reduction** - Fast method
-- 📊 **Frequency filtering** - Isolates engine frequencies (80-500 Hz)
-- 🔢 **RPM Segmentation** - Automatic splitting by RPM
-- ⚡ **GPU Acceleration** - 10x faster in Google Colab
+**GUI tool for batch copying OMSI files and models.**
 
-**Supported engines:**
-- FPT NEF 6 (184kW, 210kW) - SOR BN 9.5/10.5/12
-- FPT NEF 4 - SOR BN 8.5
-- FPT Cursor 8/9 - SOR NB 12/18
-- IVECO Cursor 8 - Older SOR
-- Mercedes OM906, Cummins ISBe/ISL
-- Generic 4cyl/6cyl diesels
+### 🔗 [📖 Detailed guide → README_FILE_COPIER.md](README_FILE_COPIER.md)
 
-#### 📁 OMSI File Copier
-GUI tool for copying OMSI files and models.
+Complete guide with step-by-step instructions, tips, and troubleshooting.
+
+### ⚡ Quick Overview
 
 **Works best with OMSI-Tools output:**
 
@@ -271,36 +289,55 @@ Sceneryobjects\149_Warszawa\Bloki\Blok_Lazurowa_3\Bl_Laz_3.sco
 Sceneryobjects\251_VelkeOpatovice-Kninice\Budka_CTK.sco
 ```
 
-**Features:**
+**Key Features:**
 - 📋 Automatic root folder detection
 - 🔄 Batch copying of sceneryobjects
 - 📊 Progress tracking
 - ✅ Verification of copied files
 - 🔗 Compatible with OMSI-Tools output
 
+**Quick Start:**
+```bash
+pip install -r requirements.txt
+python omsi_file_copier.py
+```
+
+**📖 For detailed instructions see [README_FILE_COPIER.md](README_FILE_COPIER.md)**
+
+---
+
+## 🎵 Engine Sound Extractor
+
+**Extracts and processes engine sounds from videos using AI.**
+
+### 🔗 [📖 Detailed TUI guide → README_TUI.md](README_TUI.md)
+
+### ⚡ Quick Overview
+
+**Three usage modes:**
+- 🖥️ **GUI** - Drag & drop application for Windows (`engine_sound_extractor.py`)
+- 💻 **TUI** - Terminal version (`engine_extractor_tui.py`)
+- ☁️ **Google Colab** - Cloud with free GPU (`Engine_Sound_Extractor_Colab.ipynb`)
+
+**Key Features:**
+- 🤖 **AI Separation (Demucs)** - Removes voice, music, ambient noise
+- 🎯 **AI Classification (YAMNet)** - Precise engine sound detection
+- 🔧 **Classic noise reduction** - Fast method
+- 📊 **Frequency filtering** - Isolates engine frequencies (80-500 Hz)
+- 🔢 **RPM Segmentation** - Automatic splitting by RPM
+- ⚡ **GPU Acceleration** - 10x faster in Google Colab
+
+**Supported Engines:**
+- FPT NEF 6 (184kW, 210kW) - SOR BN 9.5/10.5/12
+- FPT NEF 4 - SOR BN 8.5
+- FPT Cursor 8/9 - SOR NB 12/18
+- IVECO Cursor 8 - Older SOR
+- Mercedes OM906, Cummins ISBe/ISL
+- Generic 4cyl/6cyl diesels
+
 ---
 
 ### 🚀 Quick Start
-
-#### Engine Sound Extractor
-
-**GUI version (Windows):**
-```bash
-pip install -r requirements.txt
-python engine_sound_extractor.py
-```
-
-**TUI version (all platforms):**
-```bash
-pip install -r requirements_tui.txt
-python engine_extractor_tui.py -i  # Interactive mode
-```
-
-**Google Colab (recommended for AI):**
-1. Open `Engine_Sound_Extractor_Colab.ipynb` in Google Colab
-2. Runtime → Change runtime type → **GPU**
-3. Runtime → Run all
-4. Upload video and wait for results
 
 #### OMSI File Copier
 
@@ -309,9 +346,30 @@ pip install -r requirements.txt
 python omsi_file_copier.py
 ```
 
+#### Engine Sound Extractor (GUI)
+
+```bash
+pip install -r requirements.txt
+python engine_sound_extractor.py
+```
+
+#### Engine Sound Extractor (TUI - all platforms)
+
+```bash
+pip install -r requirements_tui.txt
+python engine_extractor_tui.py -i  # Interactive mode
+```
+
+#### Engine Sound Extractor (Google Colab - recommended for AI)
+
+1. Open `Engine_Sound_Extractor_Colab.ipynb` in Google Colab
+2. Runtime → Change runtime type → **GPU**
+3. Runtime → Run all
+4. Upload video and wait for results
+
 ---
 
-### 📋 TUI - CLI Parameters
+### 📋 Engine Sound Extractor - TUI CLI Parameters
 
 **Basic usage:**
 ```bash
@@ -349,7 +407,7 @@ python engine_extractor_tui.py video.mp4 \
 
 ---
 
-### 🔧 Method Comparison
+### 🔧 Engine Sound Extractor - Method Comparison
 
 | Method | Speed (20min video) | Quality | GPU |
 |--------|---------------------|---------|-----|
@@ -361,7 +419,7 @@ python engine_extractor_tui.py video.mp4 \
 
 ---
 
-### 🎯 Usage in OMSI
+### 🎯 Engine Sound Extractor - Usage in OMSI
 
 1. **Copy result files:**
 ```
@@ -394,12 +452,17 @@ high_rpm=2400
 
 ### 🛠️ Requirements
 
-**For GUI:**
+**For OMSI File Copier:**
+- Python 3.7+
+- PySide6
+- Packages: `pip install -r requirements.txt`
+
+**For Engine Sound Extractor (GUI):**
 - Python 3.10+
 - FFmpeg
 - Packages: `pip install -r requirements.txt`
 
-**For TUI:**
+**For Engine Sound Extractor (TUI):**
 - Python 3.10+
 - FFmpeg
 - Packages: `pip install -r requirements_tui.txt`
@@ -426,25 +489,28 @@ brew install ffmpeg
 
 **"ModuleNotFoundError"**
 ```bash
-pip install -r requirements_tui.txt  # or requirements.txt for GUI
+pip install -r requirements.txt      # for File Copier or GUI
+pip install -r requirements_tui.txt  # for TUI
 ```
 
-**Poor output quality**
+**Engine Sound Extractor - Poor output quality**
 - Use AI separation (Demucs) instead of classic
 - Increase noise reduction (50-80%)
 - Adjust frequency range for engine type
 
-**Pitch detection fails (long videos)**
+**Engine Sound Extractor - Pitch detection fails (long videos)**
 - Automatically uses fallback (equal distribution)
 - Or use Google Colab with more RAM
+
+**OMSI File Copier - Detailed troubleshooting see [README_FILE_COPIER.md](README_FILE_COPIER.md)**
 
 ---
 
 ### 📚 Documentation
 
-- [README_TUI.md](README_TUI.md) - Detailed TUI documentation for Engine Sound Extractor
-- [README_FILE_COPIER.md](README_FILE_COPIER.md) - Detailed guide for OMSI File Copier
-- [Engine_Sound_Extractor_Colab.ipynb](Engine_Sound_Extractor_Colab.ipynb) - Google Colab notebook
+- **[README_FILE_COPIER.md](README_FILE_COPIER.md)** - 📁 Detailed guide for OMSI File Copier
+- **[README_TUI.md](README_TUI.md)** - 🎵 Detailed TUI documentation for Engine Sound Extractor
+- **[Engine_Sound_Extractor_Colab.ipynb](Engine_Sound_Extractor_Colab.ipynb)** - ☁️ Google Colab notebook
 
 ---
 
