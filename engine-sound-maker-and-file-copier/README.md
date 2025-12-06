@@ -220,7 +220,8 @@ pip install -r requirements_tui.txt  # nebo requirements.txt pro GUI
 
 ### 📚 Dokumentace
 
-- [README_TUI.md](README_TUI.md) - Detailní TUI dokumentace
+- [README_TUI.md](README_TUI.md) - Detailní TUI dokumentace pro Engine Sound Extractor
+- [README_FILE_COPIER.md](README_FILE_COPIER.md) - Detailní návod pro OMSI File Copier
 - [Engine_Sound_Extractor_Colab.ipynb](Engine_Sound_Extractor_Colab.ipynb) - Google Colab notebook
 
 ---
@@ -441,7 +442,8 @@ pip install -r requirements_tui.txt  # or requirements.txt for GUI
 
 ### 📚 Documentation
 
-- [README_TUI.md](README_TUI.md) - Detailed TUI documentation
+- [README_TUI.md](README_TUI.md) - Detailed TUI documentation for Engine Sound Extractor
+- [README_FILE_COPIER.md](README_FILE_COPIER.md) - Detailed guide for OMSI File Copier
 - [Engine_Sound_Extractor_Colab.ipynb](Engine_Sound_Extractor_Colab.ipynb) - Google Colab notebook
 
 ---
