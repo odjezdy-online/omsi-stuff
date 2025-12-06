@@ -40,6 +40,7 @@ Nástroje pro práci se zvuky motorů a soubory OMSI.
   - GUI / TUI / Google Colab verze
   - ⚡ GPU akcelerace (10x rychlejší v Colab)
 - 📁 **OMSI File Copier** - Hromadné kopírování OMSI souborů
+  - Kompatibilní s OMSI-Tools výstupem
   - Automatická detekce root složek
   - Progress tracking a verifikace
 
@@ -148,6 +149,7 @@ Tools for working with engine sounds and OMSI files.
   - GUI / TUI / Google Colab versions
   - ⚡ GPU acceleration (10x faster in Colab)
 - 📁 **OMSI File Copier** - Batch copying of OMSI files
+  - Compatible with OMSI-Tools output
   - Automatic root folder detection
   - Progress tracking and verification
 

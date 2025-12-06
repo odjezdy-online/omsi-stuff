@@ -37,11 +37,24 @@ Extrahuje a zpracovává motorové zvuky z videa pomocí AI.
 #### 📁 OMSI File Copier
 GUI nástroj pro kopírování OMSI souborů a modelů.
 
+**Funguje nejlépe s výstupem z OMSI-Tools:**
+
+![Jak získat formát z OMSI-Tools](https://s3-server.ente.odjezdy.online/raw/mPTh37.gif)
+
+```
+Sceneryobjects\149_Warszawa\Bloki\Blok_Kocjana_1\BL1.sco
+Sceneryobjects\149_Warszawa\Bloki\Blok_Kocjana_2\BL2.sco
+Sceneryobjects\149_Warszawa\Bloki\Blok_Lazurowa_2\Bl_Laz_2.sco
+Sceneryobjects\149_Warszawa\Bloki\Blok_Lazurowa_3\Bl_Laz_3.sco
+Sceneryobjects\251_VelkeOpatovice-Kninice\Budka_CTK.sco
+```
+
 **Funkce:**
 - 📋 Automatická detekce root složek
 - 🔄 Hromadné kopírování sceneryobjects
 - 📊 Progress tracking
 - ✅ Verifikace zkopírovaných souborů
+- 🔗 Kompatibilní s OMSI-Tools výstupem
 
 ---
 
@@ -245,11 +258,24 @@ Extracts and processes engine sounds from videos using AI.
 #### 📁 OMSI File Copier
 GUI tool for copying OMSI files and models.
 
+**Works best with OMSI-Tools output:**
+
+![How to get format from OMSI-Tools](https://s3-server.ente.odjezdy.online/raw/mPTh37.gif)
+
+```
+Sceneryobjects\149_Warszawa\Bloki\Blok_Kocjana_1\BL1.sco
+Sceneryobjects\149_Warszawa\Bloki\Blok_Kocjana_2\BL2.sco
+Sceneryobjects\149_Warszawa\Bloki\Blok_Lazurowa_2\Bl_Laz_2.sco
+Sceneryobjects\149_Warszawa\Bloki\Blok_Lazurowa_3\Bl_Laz_3.sco
+Sceneryobjects\251_VelkeOpatovice-Kninice\Budka_CTK.sco
+```
+
 **Features:**
 - 📋 Automatic root folder detection
 - 🔄 Batch copying of sceneryobjects
 - 📊 Progress tracking
 - ✅ Verification of copied files
+- 🔗 Compatible with OMSI-Tools output
 
 ---
 
