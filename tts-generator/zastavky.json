@@ -1,0 +1,938 @@
+{
+  "Na Vyhlídce": {
+    "hlaseni": "Bukovec nad Lužnicí, Na Vyhlídce. {pz} Bukovec nad Lužnicí, Harantova.",
+    "soubor": "Na Vyhlidce1",
+    "line": "10",
+    "stop_id": "Na Vyhlidce1"
+  },
+  "Harantova": {
+    "hlaseni": "Bukovec nad Lužnicí, Harantova. {pz} Bukovec nad Lužnicí, Sídliště Míru.",
+    "soubor": "Harantova1",
+    "line": "10",
+    "stop_id": "Harantova1"
+  },
+  "Sídliště Míru": {
+    "hlaseni": "Bukovec nad Lužnicí, Sídliště Míru. {pz} Bukovec nad Lužnicí, Dům pečovatelské služby.",
+    "soubor": "SidlMiru1",
+    "line": "10",
+    "stop_id": "SidlMiru1"
+  },
+  "Dům pečovatelské služby": {
+    "hlaseni": "Bukovec nad Lužnicí, Dům pečovatelské služby. {pz} Bukovec nad Lužnicí, Vozovna Ražická.",
+    "soubor": "DPS1",
+    "line": "10",
+    "stop_id": "DPS1"
+  },
+  "Vozovna Ražická": {
+    "hlaseni": "Bukovec nad Lužnicí, Vozovna Ražická. {pz} Bukovec nad Lužnicí, Ražická.",
+    "soubor": "VozovnaRazicka1",
+    "line": "10",
+    "stop_id": "VozovnaRazicka1"
+  },
+  "Ražická": {
+    "hlaseni": "Bukovec nad Lužnicí, Ražická. {pz} Bukovec nad Lužnicí, Náměstí Tomáše Baťi.",
+    "soubor": "Razicka1",
+    "line": "10",
+    "stop_id": "Razicka1"
+  },
+  "Nám. Tomáše Bati": {
+    "hlaseni": "Bukovec nad Lužnicí, Náměstí Tomáše Baťi. {pz} Bukovec nad Lužnicí, Chýnovská most.",
+    "soubor": "NamTBati1",
+    "line": "10",
+    "stop_id": "NamTBati1"
+  },
+  "Chýnovská most": {
+    "hlaseni": "Bukovec nad Lužnicí, Chýnovská most. {pz} Bukovec nad Lužnicí, 28. října.",
+    "soubor": "ChynovskaMost1",
+    "line": "10",
+    "stop_id": "ChynovskaMost1"
+  },
+  "28. října": {
+    "hlaseni": "Bukovec nad Lužnicí, 28. října. {pz} Bukovec nad Lužnicí, Nádraží.",
+    "soubor": "28rijna1",
+    "line": "10",
+    "stop_id": "28rijna1"
+  },
+  "Nádraží": {
+    "hlaseni": "Bukovec nad Lužnicí, Nádraží. {pz} Bukovec nad Lužnicí, Poliklinika.",
+    "soubor": "Nadrazi1",
+    "line": "10",
+    "stop_id": "Nadrazi1"
+  },
+  "Poliklinika": {
+    "hlaseni": "Bukovec nad Lužnicí, Poliklinika. {pz} Bukovec nad Lužnicí, Náměstí Svobody.",
+    "soubor": "Poliklinika1",
+    "line": "10",
+    "stop_id": "Poliklinika1"
+  },
+  "Náměstí Svobody": {
+    "hlaseni": "Bukovec nad Lužnicí, Náměstí Svobody. {pz} Bukovec nad Lužnicí, Husova.",
+    "soubor": "NamSv1",
+    "line": "10",
+    "stop_id": "NamSv1"
+  },
+  "Husova": {
+    "hlaseni": "Bukovec nad Lužnicí, Husova. {pz} Bukovec nad Lužnicí, Autobusové nádraží.",
+    "soubor": "Husova1",
+    "line": "10",
+    "stop_id": "Husova1"
+  },
+  "Autobusové nádraží (konecna)": {
+    "hlaseni": "Bukovec nad Lužnicí, Autobusové nádraží. {kz}",
+    "soubor": "AutNKZ",
+    "line": "10",
+    "stop_id": "AutNKZ"
+  },
+  "Autobusové nádraží": {
+    "hlaseni": "Bukovec nad Lužnicí, Autobusové nádraží. {pz} Bukovec nad Lužnicí, Husova.",
+    "soubor": "AutN2",
+    "line": "10",
+    "stop_id": "AutN2"
+  },
+  "Husova (ID: Husova2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Husova. {pz} Bukovec nad Lužnicí, Náměstí Svobody.",
+    "soubor": "Husova2",
+    "line": "10",
+    "stop_id": "Husova2"
+  },
+  "Náměstí Svobody (ID: NamSv2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Náměstí Svobody. {pz} Bukovec nad Lužnicí, Poliklinika.",
+    "soubor": "NamSv2",
+    "line": "10",
+    "stop_id": "NamSv2"
+  },
+  "Poliklinika (ID: Poliklinika2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Poliklinika. {pz} Bukovec nad Lužnicí, Nádraží.",
+    "soubor": "Poliklinika2",
+    "line": "10",
+    "stop_id": "Poliklinika2"
+  },
+  "Nádraží (ID: Nadrazi2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Nádraží. {pz} Bukovec nad Lužnicí, 28. října.",
+    "soubor": "Nadrazi2",
+    "line": "10",
+    "stop_id": "Nadrazi2"
+  },
+  "28. října (ID: 28rijna2)": {
+    "hlaseni": "Bukovec nad Lužnicí, 28. října. {pz} Bukovec nad Lužnicí, Chýnovská most.",
+    "soubor": "28rijna2",
+    "line": "10",
+    "stop_id": "28rijna2"
+  },
+  "Chýnovská most (ID: ChynovskaMost2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Chýnovská most. {pz} Bukovec nad Lužnicí, Náměstí Tomáše Baťi.",
+    "soubor": "ChynovskaMost2",
+    "line": "10",
+    "stop_id": "ChynovskaMost2"
+  },
+  "Nám. Tomáše Bati (ID: NamTBati2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Náměstí Tomáše Baťi. {pz} Bukovec nad Lužnicí, Ražická.",
+    "soubor": "NamTBati2",
+    "line": "10",
+    "stop_id": "NamTBati2"
+  },
+  "Ražická (ID: Razicka2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Ražická. {pz} Bukovec nad Lužnicí, Vozovna Ražická.",
+    "soubor": "Razicka2",
+    "line": "10",
+    "stop_id": "Razicka2"
+  },
+  "Vozovna Ražická (ID: VozovnaRazicka2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Vozovna Ražická. {pz} Bukovec nad Lužnicí, Dům pečovatelské služby.",
+    "soubor": "VozovnaRazicka2",
+    "line": "10",
+    "stop_id": "VozovnaRazicka2"
+  },
+  "Dům pečovatelské služby (ID: DPS2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Dům pečovatelské služby. {pz} Bukovec nad Lužnicí, Sídliště Míru.",
+    "soubor": "DPS2",
+    "line": "10",
+    "stop_id": "DPS2"
+  },
+  "Sídliště Míru (ID: SidlMiru2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Sídliště Míru. {pz} Bukovec nad Lužnicí, Harantova.",
+    "soubor": "SidlMiru2",
+    "line": "10",
+    "stop_id": "SidlMiru2"
+  },
+  "Harantova (ID: Harantova2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Harantova. {pz} Bukovec nad Lužnicí, Na Vyhlídce.",
+    "soubor": "Harantova2",
+    "line": "10",
+    "stop_id": "Harantova2"
+  },
+  "Na Vyhlídce (konecna)": {
+    "hlaseni": "Bukovec nad Lužnicí, Na Vyhlídce. {kz}",
+    "soubor": "Na VyhlidceKZ",
+    "line": "10",
+    "stop_id": "Na VyhlidceKZ"
+  },
+  "Vozovna Ražická (konecna)": {
+    "hlaseni": "Bukovec nad Lužnicí, Vozovna Ražická. {kz}",
+    "soubor": "VozovnaRazickaKZ",
+    "line": "10",
+    "stop_id": "VozovnaRazickaKZ"
+  },
+  "Kosmonautů": {
+    "hlaseni": "Bukovec nad Lužnicí, Kosmonautů. {pz} Bukovec nad Lužnicí, Politických vězňů.",
+    "soubor": "Kosmonatu1",
+    "line": "11",
+    "stop_id": "Kosmonatu1"
+  },
+  "Politických vězňů": {
+    "hlaseni": "Bukovec nad Lužnicí, Politických vězňů. {pz} Bukovec nad Lužnicí, Budapešťská.",
+    "soubor": "PolitVezn1",
+    "line": "11",
+    "stop_id": "PolitVezn1"
+  },
+  "Budapešťská": {
+    "hlaseni": "Bukovec nad Lužnicí, Budapešťská. {pz} Bukovec nad Lužnicí, Bratislavská.",
+    "soubor": "Budapest1",
+    "line": "11",
+    "stop_id": "Budapest1"
+  },
+  "Bratislavská": {
+    "hlaseni": "Bukovec nad Lužnicí, Bratislavská. {pz} Bukovec nad Lužnicí, 28. října.",
+    "soubor": "Bratisl1",
+    "line": "11",
+    "stop_id": "Bratisl1"
+  },
+  "Poliklinika (ID: Poliklinika3)": {
+    "hlaseni": "Bukovec nad Lužnicí, Poliklinika. {pz} Bukovec nad Lužnicí, Ellerova - Městský úřad.",
+    "soubor": "Poliklinika3",
+    "line": "11",
+    "stop_id": "Poliklinika3"
+  },
+  "Ellerova - MÚ": {
+    "hlaseni": "Bukovec nad Lužnicí, Ellerova - Městský úřad. {pz} Bukovec nad Lužnicí, Pražská.",
+    "soubor": "ElMU1",
+    "line": "11",
+    "stop_id": "ElMU1"
+  },
+  "Pražská": {
+    "hlaseni": "Bukovec nad Lužnicí, Pražská. {pz} Bukovec nad Lužnicí, Žižkovo náměstí.",
+    "soubor": "Prazska1",
+    "line": "11",
+    "stop_id": "Prazska1"
+  },
+  "Žižkovo náměstí": {
+    "hlaseni": "Bukovec nad Lužnicí, Žižkovo náměstí. {pz} Bukovec nad Lužnicí, Jiráskovy sady.",
+    "soubor": "ZizkovoNam1",
+    "line": "11",
+    "stop_id": "ZizkovoNam1"
+  },
+  "Jiráskovy sady": {
+    "hlaseni": "Bukovec nad Lužnicí, Jiráskovy sady. {pz} Bukovec nad Lužnicí, Evropská.",
+    "soubor": "Jirsady1",
+    "line": "11",
+    "stop_id": "Jirsady1"
+  },
+  "Evropská": {
+    "hlaseni": "Bukovec nad Lužnicí, Evropská. {pz} Bukovec nad Lužnicí, Nemocnice, areál.",
+    "soubor": "Evropska1",
+    "line": "11",
+    "stop_id": "Evropska1"
+  },
+  "Nemocnice, areál (konecna)": {
+    "hlaseni": "Bukovec nad Lužnicí, Nemocnice, areál. {kz}",
+    "soubor": "NemArKZ",
+    "line": "11",
+    "stop_id": "NemArKZ"
+  },
+  "Nemocnice, areál": {
+    "hlaseni": "Bukovec nad Lužnicí, Nemocnice, areál. {pz} Bukovec nad Lužnicí, Evropská.",
+    "soubor": "NemAr2",
+    "line": "11",
+    "stop_id": "NemAr2"
+  },
+  "Evropská (ID: Evropska2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Evropská. {pz} Bukovec nad Lužnicí, Jiráskovy sady.",
+    "soubor": "Evropska2",
+    "line": "11",
+    "stop_id": "Evropska2"
+  },
+  "Jiráskovy sady (ID: Jirsady2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Jiráskovy sady. {pz} Bukovec nad Lužnicí, Žižkovo náměstí.",
+    "soubor": "Jirsady2",
+    "line": "11",
+    "stop_id": "Jirsady2"
+  },
+  "Žižkovo náměstí (ID: ZizkovoNam2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Žižkovo náměstí. {pz} Bukovec nad Lužnicí, Pražská.",
+    "soubor": "ZizkovoNam2",
+    "line": "11",
+    "stop_id": "ZizkovoNam2"
+  },
+  "Pražská (ID: Prazska2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Pražská. {pz} Bukovec nad Lužnicí, Ellerova - Městský úřad.",
+    "soubor": "Prazska2",
+    "line": "11",
+    "stop_id": "Prazska2"
+  },
+  "Ellerova - MÚ (ID: ElMU2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Ellerova - Městský úřad. {pz} Bukovec nad Lužnicí, Poliklinika.",
+    "soubor": "ElMU2",
+    "line": "11",
+    "stop_id": "ElMU2"
+  },
+  "28. října (ID: 28rijna4)": {
+    "hlaseni": "Bukovec nad Lužnicí, 28. října. {pz} Bukovec nad Lužnicí, Bratislavská.",
+    "soubor": "28rijna4",
+    "line": "11",
+    "stop_id": "28rijna4"
+  },
+  "Bratislavská (ID: Bratisl2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Bratislavská. {pz} Bukovec nad Lužnicí, Budapešťská.",
+    "soubor": "Bratisl2",
+    "line": "11",
+    "stop_id": "Bratisl2"
+  },
+  "Budapešťská (ID: Budapest2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Budapešťská. {pz} Bukovec nad Lužnicí, Politických vězňů.",
+    "soubor": "Budapest2",
+    "line": "11",
+    "stop_id": "Budapest2"
+  },
+  "Politických vězňů (ID: PolitVezn2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Politických vězňů. {pz} Bukovec nad Lužnicí, Kosmonautů.",
+    "soubor": "PolitVezn2",
+    "line": "11",
+    "stop_id": "PolitVezn2"
+  },
+  "Kosmonautů (konecna)": {
+    "hlaseni": "Bukovec nad Lužnicí, Kosmonautů. {kz}",
+    "soubor": "KosmonatuKZ",
+    "line": "11",
+    "stop_id": "KosmonatuKZ"
+  },
+  "Masokombinát, točna": {
+    "hlaseni": "Bukovec nad Lužnicí, Masokombinát, točna. {pz} Bukovec nad Lužnicí, Masokombinát, závod.",
+    "soubor": "MasoT1",
+    "line": "12",
+    "stop_id": "MasoT1"
+  },
+  "Masokombinát, závod": {
+    "hlaseni": "Bukovec nad Lužnicí, Masokombinát, závod. {pz} Bukovec nad Lužnicí, Sídliště Míru střed.",
+    "soubor": "MasoZ1",
+    "line": "12",
+    "stop_id": "MasoZ1"
+  },
+  "Sídliště Míru střed": {
+    "hlaseni": "Bukovec nad Lužnicí, Sídliště Míru střed. {pz} Bukovec nad Lužnicí, Třeboňská.",
+    "soubor": "SidlMiruStred1",
+    "line": "12",
+    "stop_id": "SidlMiruStred1"
+  },
+  "Třeboňská": {
+    "hlaseni": "Bukovec nad Lužnicí, Třeboňská. {pz} Bukovec nad Lužnicí, Náměstí Tomáše Baťi.",
+    "soubor": "Trebonska1",
+    "line": "12",
+    "stop_id": "Trebonska1"
+  },
+  "Nádraží (konecna)": {
+    "hlaseni": "Bukovec nad Lužnicí, Nádraží. {kz}",
+    "soubor": "NadraziKZ",
+    "line": "12",
+    "stop_id": "NadraziKZ"
+  },
+  "Nám. Tomáše Bati (ID: NamTBati4)": {
+    "hlaseni": "Bukovec nad Lužnicí, Náměstí Tomáše Baťi. {pz} Bukovec nad Lužnicí, Třeboňská.",
+    "soubor": "NamTBati4",
+    "line": "12",
+    "stop_id": "NamTBati4"
+  },
+  "Třeboňská (ID: Trebonska2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Třeboňská. {pz} Bukovec nad Lužnicí, Sídliště Míru střed.",
+    "soubor": "Trebonska2",
+    "line": "12",
+    "stop_id": "Trebonska2"
+  },
+  "Sídliště Míru střed (ID: SidlMiruStred2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Sídliště Míru střed. {pz} Bukovec nad Lužnicí, Masokombinát, závod.",
+    "soubor": "SidlMiruStred2",
+    "line": "12",
+    "stop_id": "SidlMiruStred2"
+  },
+  "Masokombinát, závod (ID: MasoZ2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Masokombinát, závod. {pz} Bukovec nad Lužnicí, Masokombinát, točna.",
+    "soubor": "MasoZ2",
+    "line": "12",
+    "stop_id": "MasoZ2"
+  },
+  "Masokombinát, točna (konecna)": {
+    "hlaseni": "Bukovec nad Lužnicí, Masokombinát, točna. {kz}",
+    "soubor": "MasoTKZ",
+    "line": "12",
+    "stop_id": "MasoTKZ"
+  },
+  "Bratislavská (ID: Bratisl3)": {
+    "hlaseni": "Bukovec nad Lužnicí, Bratislavská. {pz} Bukovec nad Lužnicí, Bratislavská.",
+    "soubor": "Bratisl3",
+    "line": "17",
+    "stop_id": "Bratisl3"
+  },
+  "Bratislavská (ID: Bratisl5)": {
+    "hlaseni": "Bukovec nad Lužnicí, Bratislavská. {pz} Bukovec nad Lužnicí, Budovatelská.",
+    "soubor": "Bratisl5",
+    "line": "17",
+    "stop_id": "Bratisl5"
+  },
+  "Budovatelská": {
+    "hlaseni": "Bukovec nad Lužnicí, Budovatelská. {pz} Bukovec nad Lužnicí, Škola SNP.",
+    "soubor": "Budov1",
+    "line": "17",
+    "stop_id": "Budov1"
+  },
+  "Škola SNP": {
+    "hlaseni": "Bukovec nad Lužnicí, Škola SNP. {pz} Bukovec nad Lužnicí, Autobusové nádraží.",
+    "soubor": "SkolaSNP1",
+    "line": "17",
+    "stop_id": "SkolaSNP1"
+  },
+  "Autobusové nádraží (ID: AutN1)": {
+    "hlaseni": "Bukovec nad Lužnicí, Autobusové nádraží. {pz} Bukovec nad Lužnicí, Škola SNP.",
+    "soubor": "AutN1",
+    "line": "17",
+    "stop_id": "AutN1"
+  },
+  "Škola SNP (ID: SkolaSNP2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Škola SNP. {pz} Bukovec nad Lužnicí, Budovatelská.",
+    "soubor": "SkolaSNP2",
+    "line": "17",
+    "stop_id": "SkolaSNP2"
+  },
+  "Budovatelská (ID: Budov2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Budovatelská. {pz} Bukovec nad Lužnicí, Bratislavská.",
+    "soubor": "Budov2",
+    "line": "17",
+    "stop_id": "Budov2"
+  },
+  "Sídliště Míru (ID: SidlMiru4)": {
+    "hlaseni": "Bukovec nad Lužnicí, Sídliště Míru. {pz} Bukovec nad Lužnicí, Sídliště Míru střed.",
+    "soubor": "SidlMiru4",
+    "line": "51",
+    "stop_id": "SidlMiru4"
+  },
+  "Chýnovská most (ID: ChynovskaMost3)": {
+    "hlaseni": "Bukovec nad Lužnicí, Chýnovská most. {pz} Bukovec nad Lužnicí, Bratislavská.",
+    "soubor": "ChynovskaMost3",
+    "line": "51",
+    "stop_id": "ChynovskaMost3"
+  },
+  "Politických vězňů (ID: PolitVezn4)": {
+    "hlaseni": "Bukovec nad Lužnicí, Politických vězňů. {pz} Bukovec nad Lužnicí, Kosmonautů.",
+    "soubor": "PolitVezn4",
+    "line": "51",
+    "stop_id": "PolitVezn4"
+  },
+  "Náměstí Svobody (ID: NamSv4)": {
+    "hlaseni": "Bukovec nad Lužnicí, Náměstí Svobody. {pz} Bukovec nad Lužnicí, Ellerova - Městský úřad.",
+    "soubor": "NamSv4",
+    "line": "51",
+    "stop_id": "NamSv4"
+  },
+  "Jiráskovy sady (konecna)": {
+    "hlaseni": "Bukovec nad Lužnicí, Jiráskovy sady. {kz}",
+    "soubor": "JirsadyKZ",
+    "line": "51",
+    "stop_id": "JirsadyKZ"
+  },
+  "Ellerova - MÚ (ID: ElMU4)": {
+    "hlaseni": "Bukovec nad Lužnicí, Ellerova - Městský úřad. {pz} Bukovec nad Lužnicí, Náměstí Svobody.",
+    "soubor": "ElMU4",
+    "line": "51",
+    "stop_id": "ElMU4"
+  },
+  "Husova (ID: Husova3)": {
+    "hlaseni": "Bukovec nad Lužnicí, Husova. {pz} Bukovec nad Lužnicí, Autobusové nádraží.",
+    "soubor": "Husova3",
+    "line": "51",
+    "stop_id": "Husova3"
+  },
+  "Bratislavská (ID: Bratisl4)": {
+    "hlaseni": "Bukovec nad Lužnicí, Bratislavská. {pz} Bukovec nad Lužnicí, Chýnovská most.",
+    "soubor": "Bratisl4",
+    "line": "51",
+    "stop_id": "Bratisl4"
+  },
+  "Sídliště Míru střed (ID: SidlMiruStred4)": {
+    "hlaseni": "Bukovec nad Lužnicí, Sídliště Míru střed. {pz} Bukovec nad Lužnicí, Sídliště Míru.",
+    "soubor": "SidlMiruStred4",
+    "line": "51",
+    "stop_id": "SidlMiruStred4"
+  },
+  "Dům pečovatelské služby (konecna)": {
+    "hlaseni": "Bukovec nad Lužnicí, Dům pečovatelské služby. {kz}",
+    "soubor": "DPSKZ",
+    "line": "51",
+    "stop_id": "DPSKZ"
+  },
+  "Bukovec n.L.,aut.nádr": {
+    "hlaseni": "Bukovec nad Lužnicí, autobusové nádraží {pz} Bukovec nad Lužnicí, Husova.",
+    "soubor": "31_BnLAuto_Husova",
+    "line": "31",
+    "stop_id": "31_BnLAuto_Husova"
+  },
+  "Bukovec n.L.,Husova": {
+    "hlaseni": "Bukovec nad Lužnicí, Husova. {pz} Bukovec nad Lužnicí, Náměstí.",
+    "soubor": "31_Husova_Namesti",
+    "line": "31",
+    "stop_id": "31_Husova_Namesti"
+  },
+  "Bukovec n.L.,Náměstí": {
+    "hlaseni": "Bukovec nad Lužnicí, Náměstí. {pz} Bukovec nad Lužnicí, Poliklinika.",
+    "soubor": "31_Namesti_Poliklinika",
+    "line": "31",
+    "stop_id": "31_Namesti_Poliklinika"
+  },
+  "Bukovec n.L.,Poliklinika": {
+    "hlaseni": "Bukovec nad Lužnicí, Poliklinika. {pz} Bukovec nad Lužnicí, Nádraží.",
+    "soubor": "31_Poliklinika_Nadrazi",
+    "line": "31",
+    "stop_id": "31_Poliklinika_Nadrazi"
+  },
+  "Bukovec n.L.,Nádraží": {
+    "hlaseni": "Bukovec nad Lužnicí, Nádraží. {pz} Bukovec nad Lužnicí, 28. října.",
+    "soubor": "31_Nadrazi_28rijna",
+    "line": "31",
+    "stop_id": "31_Nadrazi_28rijna"
+  },
+  "Bukovec n.L.,28. října": {
+    "hlaseni": "Bukovec nad Lužnicí, 28. října. {pz} Bukovec nad Lužnicí, Bratislavská.",
+    "soubor": "31_28rijna_Bratislavska",
+    "line": "31",
+    "stop_id": "31_28rijna_Bratislavska"
+  },
+  "Bukovec n.L.,Bratislavská": {
+    "hlaseni": "Bukovec nad Lužnicí, Bratislavská. {pz} Bukovec nad Lužnicí, Budapešťská.",
+    "soubor": "31_Bratislavska_Budapest",
+    "line": "31",
+    "stop_id": "31_Bratislavska_Budapest"
+  },
+  "Bukovec n.L.,Budapešťská": {
+    "hlaseni": "Bukovec nad Lužnicí, Budapešťská. {pz} Bukovec nad Lužnicí, Pol. vězňů.",
+    "soubor": "31_Budapest_Politickych",
+    "line": "31",
+    "stop_id": "31_Budapest_Politickych"
+  },
+  "Bukovec n.L.,Pol. vězňů": {
+    "hlaseni": "Bukovec nad Lužnicí, Pol. vězňů. {pz} Bukovec nad Lužnicí, Kosmonautů.",
+    "soubor": "31_Politickych_Kosmonautu",
+    "line": "31",
+    "stop_id": "31_Politickych_Kosmonautu"
+  },
+  "Bukovec n.L.,Kosmonautů": {
+    "hlaseni": "Bukovec nad Lužnicí, Kosmonautů. {pz} Zálužní Lhota, škola.",
+    "soubor": "31_Kosmonautu_ZLSkola",
+    "line": "31",
+    "stop_id": "31_Kosmonautu_ZLSkola"
+  },
+  "Zálužní Lhota,škola": {
+    "hlaseni": "Zálužní Lhota, škola. {pz} Zálužní Lhota, točna.",
+    "soubor": "31_ZLSkola_ZLTocna",
+    "line": "31",
+    "stop_id": "31_ZLSkola_ZLTocna"
+  },
+  "Zálužní Lhota,točna": {
+    "hlaseni": "Zálužní Lhota, točna. {pz} Zálužní Lhota, Pod návsí.",
+    "soubor": "31_ZLTocna_ZLPodNavsi",
+    "line": "31",
+    "stop_id": "31_ZLTocna_ZLPodNavsi"
+  },
+  "Zálužní Lhota,Pod návsí": {
+    "hlaseni": "Zálužní Lhota, Pod návsí. {pz} Zálužní Lhota, Nádraží.",
+    "soubor": "31_ZLPodNavsi_ZLNadrazi",
+    "line": "31",
+    "stop_id": "31_ZLPodNavsi_ZLNadrazi"
+  },
+  "Zálužní Lhota,Nádraží (konecna)": {
+    "hlaseni": "Zálužní Lhota, Nádraží. {kz}",
+    "soubor": "31_ZLNadrazi_KZ",
+    "line": "31",
+    "stop_id": "31_ZLNadrazi_KZ"
+  },
+  "Zálužní Lhota,točna (konecna)": {
+    "hlaseni": "Zálužní Lhota, točna. {kz}",
+    "soubor": "31_ZLTocna_ZLPodNavsi_1",
+    "line": "31",
+    "stop_id": "31_ZLTocna_ZLPodNavsi_1"
+  },
+  "Zálužní Lhota,Nádraží": {
+    "hlaseni": "Zálužní Lhota, Nádraží. {pz} Zálužní Lhota, Nádraží.",
+    "soubor": "31_ZLNadrazi_ZLPodNavsi",
+    "line": "31",
+    "stop_id": "31_ZLNadrazi_ZLPodNavsi"
+  },
+  "Zálužní Lhota,Pod návsí (ID: 31_ZLPodNavsi_ZLTocna)": {
+    "hlaseni": "Zálužní Lhota, Pod návsí. {pz} Zálužní Lhota, točna.",
+    "soubor": "31_ZLPodNavsi_ZLTocna",
+    "line": "31",
+    "stop_id": "31_ZLPodNavsi_ZLTocna"
+  },
+  "Zálužní Lhota,točna (ID: 31_ZLTocna_ZLSkola_1)": {
+    "hlaseni": "Zálužní Lhota, točna. {pz} Zálužní Lhota, škola.",
+    "soubor": "31_ZLTocna_ZLSkola_1",
+    "line": "31",
+    "stop_id": "31_ZLTocna_ZLSkola_1"
+  },
+  "Zálužní Lhota,škola (ID: 31_ZLSkola_Kosmonautu)": {
+    "hlaseni": "Zálužní Lhota, škola. {pz} Bukovec nad Lužnicí, Kosmonautů.",
+    "soubor": "31_ZLSkola_Kosmonautu",
+    "line": "31",
+    "stop_id": "31_ZLSkola_Kosmonautu"
+  },
+  "Bukovec n.L.,Kosmonautů (ID: 31_Kosmonautu_Politickych)": {
+    "hlaseni": "Bukovec nad Lužnicí, Kosmonautů. {pz} Bukovec nad Lužnicí, Pol. vězňů.",
+    "soubor": "31_Kosmonautu_Politickych",
+    "line": "31",
+    "stop_id": "31_Kosmonautu_Politickych"
+  },
+  "Bukovec n.L.,Pol. vězňů (ID: 31_Politickych_Budapest)": {
+    "hlaseni": "Bukovec nad Lužnicí, Pol. vězňů. {pz} Bukovec nad Lužnicí, Budapešťská.",
+    "soubor": "31_Politickych_Budapest",
+    "line": "31",
+    "stop_id": "31_Politickych_Budapest"
+  },
+  "Bukovec n.L.,Budapešťská (ID: 31_Budapest_Bratislavska)": {
+    "hlaseni": "Bukovec nad Lužnicí, Budapešťská. {pz} Bukovec nad Lužnicí, Bratislavská.",
+    "soubor": "31_Budapest_Bratislavska",
+    "line": "31",
+    "stop_id": "31_Budapest_Bratislavska"
+  },
+  "Bukovec n.L.,Bratislavská (ID: 31_Bratislavska_28rijna)": {
+    "hlaseni": "Bukovec nad Lužnicí, Bratislavská. {pz} Bukovec nad Lužnicí, 28. října.",
+    "soubor": "31_Bratislavska_28rijna",
+    "line": "31",
+    "stop_id": "31_Bratislavska_28rijna"
+  },
+  "Bukovec n.L.,28. října (ID: 31_28rijna_Nadrazi)": {
+    "hlaseni": "Bukovec nad Lužnicí, 28. října. {pz} Bukovec nad Lužnicí, Nádraží.",
+    "soubor": "31_28rijna_Nadrazi",
+    "line": "31",
+    "stop_id": "31_28rijna_Nadrazi"
+  },
+  "Bukovec n.L.,Nádraží (ID: 31_Nadrazi_Poliklinika)": {
+    "hlaseni": "Bukovec nad Lužnicí, Nádraží. {pz} Bukovec nad Lužnicí, Poliklinika.",
+    "soubor": "31_Nadrazi_Poliklinika",
+    "line": "31",
+    "stop_id": "31_Nadrazi_Poliklinika"
+  },
+  "Bukovec n.L.,Poliklinika (ID: 31_Poliklinika_Namesti)": {
+    "hlaseni": "Bukovec nad Lužnicí, Poliklinika. {pz} Bukovec nad Lužnicí, Náměstí.",
+    "soubor": "31_Poliklinika_Namesti",
+    "line": "31",
+    "stop_id": "31_Poliklinika_Namesti"
+  },
+  "Bukovec n.L.,Náměstí (ID: 31_Namesti_Husova)": {
+    "hlaseni": "Bukovec nad Lužnicí, Náměstí. {pz} Bukovec nad Lužnicí, Husova.",
+    "soubor": "31_Namesti_Husova",
+    "line": "31",
+    "stop_id": "31_Namesti_Husova"
+  },
+  "Bukovec n.L.,Husova (ID: 31_Husova_BnLAuto)": {
+    "hlaseni": "Bukovec nad Lužnicí, Husova. {pz} Bukovec nad Lužnicí, autobusové nádraží",
+    "soubor": "31_Husova_BnLAuto",
+    "line": "31",
+    "stop_id": "31_Husova_BnLAuto"
+  },
+  "Bukovec n.L.,aut.nádr (konecna)": {
+    "hlaseni": "Bukovec nad Lužnicí, autobusové nádraží {kz}",
+    "soubor": "31_BnLAuto_KZ",
+    "line": "31",
+    "stop_id": "31_BnLAuto_KZ"
+  },
+  "Zálužní Lhota,točna (ID: 31_ZLTocna_ZLSkola)": {
+    "hlaseni": "Zálužní Lhota, točna. {pz} Zálužní Lhota, točna.",
+    "soubor": "31_ZLTocna_ZLSkola",
+    "line": "31",
+    "stop_id": "31_ZLTocna_ZLSkola"
+  },
+  "ZÁLUŽNÍ LHOTA, NÁDRAŽÍ": {
+    "hlaseni": "Zálužní Lhota. {pz} Zálužní Lhota, škola.",
+    "soubor": "ZLN-NAD2",
+    "line": "972",
+    "stop_id": "ZLN-NAD2"
+  },
+  "ZÁLUŽNÍ LHOTA, NÁDRAŽÍ (ID: ZLSZ-NAD2)": {
+    "hlaseni": "Zálužní Lhota, škola. {pz} Zálužní Lhota, Bukovec nad Lužnicí.",
+    "soubor": "ZLSZ-NAD2",
+    "line": "972",
+    "stop_id": "ZLSZ-NAD2"
+  },
+  "BUKOVEC NAD LUŽNICÍ (konecna)": {
+    "hlaseni": "Zálužní Lhota, Bukovec nad Lužnicí. {kz}",
+    "soubor": "NAD-NAD1",
+    "line": "972",
+    "stop_id": "NAD-NAD1"
+  },
+  "BUKOVEC NAD LUŽNICÍ": {
+    "hlaseni": "Zálužní Lhota, Bukovec nad Lužnicí. {pz} Zálužní Lhota, škola.",
+    "soubor": "NAD-NAD2",
+    "line": "972",
+    "stop_id": "NAD-NAD2"
+  },
+  "ZÁLUŽNÍ LHOTA, NÁDRAŽÍ (ID: ZLSZ-NAD1)": {
+    "hlaseni": "Zálužní Lhota, škola. {pz} Zálužní Lhota.",
+    "soubor": "ZLSZ-NAD1",
+    "line": "972",
+    "stop_id": "ZLSZ-NAD1"
+  },
+  "ZÁLUŽNÍ LHOTA, NÁDRAŽÍ (konecna)": {
+    "hlaseni": "Zálužní Lhota. {kz}",
+    "soubor": "ZLN-NAD1",
+    "line": "972",
+    "stop_id": "ZLN-NAD1"
+  },
+  "NOVÝ SVĚT": {
+    "hlaseni": "Nový Svět, kruhový objezd. {pz} Nový Svět.",
+    "soubor": "Nový Svět, kruh.obj._1",
+    "line": "231",
+    "stop_id": "Nový Svět, kruh.obj._1"
+  },
+  "NOVÝ SVĚT (ID: Nový Svět_1)": {
+    "hlaseni": "Nový Svět. {pz} Nový Svět, rozcestí.",
+    "soubor": "Nový Svět_1",
+    "line": "231",
+    "stop_id": "Nový Svět_1"
+  },
+  "NOVÝ SVĚT, ROZC.": {
+    "hlaseni": "Nový Svět, rozcestí. {pz} Šachotín.",
+    "soubor": "Nový Svět, rozc._1",
+    "line": "231",
+    "stop_id": "Nový Svět, rozc._1"
+  },
+  "ŠACHOTÍN": {
+    "hlaseni": "Šachotín. {pz} Zálužní Lhota.",
+    "soubor": "Šachotín_1",
+    "line": "231",
+    "stop_id": "Šachotín_1"
+  },
+  "ZÁLUŽNÍ LHOTA": {
+    "hlaseni": "Zálužní Lhota. {pz} Zálužní Lhota, škola.",
+    "soubor": "Zálužní Lhota_1",
+    "line": "231",
+    "stop_id": "Zálužní Lhota_1"
+  },
+  "Zálužní Lhota, škola": {
+    "hlaseni": "Zálužní Lhota, škola. {pz} Bukovec nad Lužnicí, Kosmonautů.",
+    "soubor": "Zálužní Lhota, škola_1",
+    "line": "231",
+    "stop_id": "Zálužní Lhota, škola_1"
+  },
+  "KOSMONAUTŮ": {
+    "hlaseni": "Bukovec nad Lužnicí, Kosmonautů. {pz} Bukovec nad Lužnicí, Bratislavská.",
+    "soubor": "Kosmonautů_1",
+    "line": "231",
+    "stop_id": "Kosmonautů_1"
+  },
+  "BRATISLAVSKÁ": {
+    "hlaseni": "Bukovec nad Lužnicí, Bratislavská. {pz} Bukovec nad Lužnicí, 28. října.",
+    "soubor": "Bratislavská_1",
+    "line": "231",
+    "stop_id": "Bratislavská_1"
+  },
+  "28. ŘÍJNA": {
+    "hlaseni": "Bukovec nad Lužnicí, 28. října. {pz} Bukovec nad Lužnicí, Nádraží.",
+    "soubor": "28. října_1",
+    "line": "231",
+    "stop_id": "28. října_1"
+  },
+  "NÁDRAŽÍ": {
+    "hlaseni": "Bukovec nad Lužnicí, Nádraží. {pz} Bukovec nad Lužnicí, Poliklinika.",
+    "soubor": "Nádraží_1",
+    "line": "231",
+    "stop_id": "Nádraží_1"
+  },
+  "POLIKLINIKA": {
+    "hlaseni": "Bukovec nad Lužnicí, Poliklinika. {pz} Bukovec nad Lužnicí, Ellerova - Městský úřad.",
+    "soubor": "Poliklinika_smer_Ellerova",
+    "line": "231",
+    "stop_id": "Poliklinika_smer_Ellerova"
+  },
+  "ELLEROVA - MÚ": {
+    "hlaseni": "Bukovec nad Lužnicí, Ellerova - Městský úřad. {pz} Bukovec nad Lužnicí, Pražská.",
+    "soubor": "Ellerova - MÚ_smer_Prazska",
+    "line": "231",
+    "stop_id": "Ellerova - MÚ_smer_Prazska"
+  },
+  "PRAŽSKÁ (X)": {
+    "hlaseni": "Bukovec nad Lužnicí, Pražská. {pz} Bukovec nad Lužnicí, Žižkovo náměstí.",
+    "soubor": "Pražská (x)_1",
+    "line": "231",
+    "stop_id": "Pražská (x)_1"
+  },
+  "ŽIŽKOVO NÁMĚSTÍ": {
+    "hlaseni": "Bukovec nad Lužnicí, Žižkovo náměstí. {pz} Bukovec nad Lužnicí, Jiráskovy sady.",
+    "soubor": "Žižkovo náměstí_1",
+    "line": "231",
+    "stop_id": "Žižkovo náměstí_1"
+  },
+  "JIRÁSKOVY SADY": {
+    "hlaseni": "Bukovec nad Lužnicí, Jiráskovy sady. {pz} Bukovec nad Lužnicí, Evropská.",
+    "soubor": "Jiráskovy sady_1",
+    "line": "231",
+    "stop_id": "Jiráskovy sady_1"
+  },
+  "EVROPSKÁ (X)": {
+    "hlaseni": "Bukovec nad Lužnicí, Evropská. {pz} Bukovec nad Lužnicí, Nemocnice, areál.",
+    "soubor": "Evropská (x)_1",
+    "line": "231",
+    "stop_id": "Evropská (x)_1"
+  },
+  "NEMOCNICE, AREÁL": {
+    "hlaseni": "Bukovec nad Lužnicí, Nemocnice, areál. {pz} Bukovec nad Lužnicí, Evropská.",
+    "soubor": "Nemocnice, areál - nástup",
+    "line": "231",
+    "stop_id": "Nemocnice, areál - nástup"
+  },
+  "EVROPSKÁ (X) (ID: Evropská (x)_2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Evropská. {pz} Bukovec nad Lužnicí, Jiráskovy sady.",
+    "soubor": "Evropská (x)_2",
+    "line": "231",
+    "stop_id": "Evropská (x)_2"
+  },
+  "JIRÁSKOVY SADY (ID: Jiráskovy sady_2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Jiráskovy sady. {pz} Bukovec nad Lužnicí, Žižkovo náměstí.",
+    "soubor": "Jiráskovy sady_2",
+    "line": "231",
+    "stop_id": "Jiráskovy sady_2"
+  },
+  "ŽIŽKOVO NÁMĚSTÍ (ID: Žižkovo náměstí_2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Žižkovo náměstí. {pz} Bukovec nad Lužnicí, Pražská.",
+    "soubor": "Žižkovo náměstí_2",
+    "line": "231",
+    "stop_id": "Žižkovo náměstí_2"
+  },
+  "PRAŽSKÁ (X) (ID: Pražská (x)_2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Pražská. {pz} Bukovec nad Lužnicí, Ellerova - Městský úřad.",
+    "soubor": "Pražská (x)_2",
+    "line": "231",
+    "stop_id": "Pražská (x)_2"
+  },
+  "ELLEROVA - MÚ (ID: Ellerova - MÚ_smer_NamSvob)": {
+    "hlaseni": "Bukovec nad Lužnicí, Ellerova - Městský úřad. {pz} Bukovec nad Lužnicí, Náměstí Svobody.",
+    "soubor": "Ellerova - MÚ_smer_NamSvob",
+    "line": "231",
+    "stop_id": "Ellerova - MÚ_smer_NamSvob"
+  },
+  "NÁMĚSTÍ SVOBODY": {
+    "hlaseni": "Bukovec nad Lužnicí, Náměstí Svobody. {pz} Bukovec nad Lužnicí, Husova.",
+    "soubor": "Náměstí Svobody_2",
+    "line": "231",
+    "stop_id": "Náměstí Svobody_2"
+  },
+  "HUSOVA": {
+    "hlaseni": "Bukovec nad Lužnicí, Husova. {pz} Bukovec nad Lužnicí, autobusové nádraží",
+    "soubor": "Husova_2",
+    "line": "231",
+    "stop_id": "Husova_2"
+  },
+  "Bukovec n.L.,Aut.nádr.": {
+    "hlaseni": "Bukovec nad Lužnicí, autobusové nádraží {pz} Bukovec nad Lužnicí, autobusové nádraží",
+    "soubor": "Bukovec nad Luznici, aut. nadr.",
+    "line": "231",
+    "stop_id": "Bukovec nad Luznici, aut. nadr."
+  },
+  "Bukovec n.L.,Aut.nádr. (konecna)": {
+    "hlaseni": "Bukovec nad Lužnicí, autobusové nádraží {kz}",
+    "soubor": "Bukovec nad Luznici, aut.nadr.",
+    "line": "231",
+    "stop_id": "Bukovec nad Luznici, aut.nadr."
+  },
+  "Bukovec n.L.,Aut.nádr. (ID: Bukovec nad Luznici, aut.nadr.)": {
+    "hlaseni": "Bukovec nad Lužnicí, autobusové nádraží {pz} Bukovec nad Lužnicí, autobusové nádraží",
+    "soubor": "Bukovec nad Luznici, aut.nadr.",
+    "line": "231",
+    "stop_id": "Bukovec nad Luznici, aut.nadr."
+  },
+  "Bukovec n.L.,Aut.nádr. (ID: Bukovec nad Luznic mesto)": {
+    "hlaseni": "Bukovec nad Lužnicí, autobusové nádraží {pz} Bukovec nad Lužnicí, Husova.",
+    "soubor": "Bukovec nad Luznic mesto",
+    "line": "231",
+    "stop_id": "Bukovec nad Luznic mesto"
+  },
+  "HUSOVA (ID: Husova_1)": {
+    "hlaseni": "Bukovec nad Lužnicí, Husova. {pz} Bukovec nad Lužnicí, Náměstí Svobody.",
+    "soubor": "Husova_1",
+    "line": "231",
+    "stop_id": "Husova_1"
+  },
+  "NÁMĚSTÍ SVOBODY (ID: Náměstí Svobody_1)": {
+    "hlaseni": "Bukovec nad Lužnicí, Náměstí Svobody. {pz} Bukovec nad Lužnicí, Ellerova - Městský úřad.",
+    "soubor": "Náměstí Svobody_1",
+    "line": "231",
+    "stop_id": "Náměstí Svobody_1"
+  },
+  "ELLEROVA - MÚ (ID: Ellerova - MÚ_smer_Poliklinika)": {
+    "hlaseni": "Bukovec nad Lužnicí, Ellerova - Městský úřad. {pz} Bukovec nad Lužnicí, Poliklinika.",
+    "soubor": "Ellerova - MÚ_smer_Poliklinika",
+    "line": "231",
+    "stop_id": "Ellerova - MÚ_smer_Poliklinika"
+  },
+  "POLIKLINIKA (ID: Poliklinika_smer_Nadrazi)": {
+    "hlaseni": "Bukovec nad Lužnicí, Poliklinika. {pz} Bukovec nad Lužnicí, Nádraží.",
+    "soubor": "Poliklinika_smer_Nadrazi",
+    "line": "231",
+    "stop_id": "Poliklinika_smer_Nadrazi"
+  },
+  "NÁDRAŽÍ (ID: Nádraží_2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Nádraží. {pz} Bukovec nad Lužnicí, 28. října.",
+    "soubor": "Nádraží_2",
+    "line": "231",
+    "stop_id": "Nádraží_2"
+  },
+  "28. ŘÍJNA (ID: 28. října_2)": {
+    "hlaseni": "Bukovec nad Lužnicí, 28. října. {pz} Bukovec nad Lužnicí, Bratislavská.",
+    "soubor": "28. října_2",
+    "line": "231",
+    "stop_id": "28. října_2"
+  },
+  "BRATISLAVSKÁ (ID: Bratislavská_2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Bratislavská. {pz} Bukovec nad Lužnicí, Kosmonautů.",
+    "soubor": "Bratislavská_2",
+    "line": "231",
+    "stop_id": "Bratislavská_2"
+  },
+  "KOSMONAUTŮ (ID: Kosmonautů_2)": {
+    "hlaseni": "Bukovec nad Lužnicí, Kosmonautů. {pz} Zálužní Lhota, škola.",
+    "soubor": "Kosmonautů_2",
+    "line": "231",
+    "stop_id": "Kosmonautů_2"
+  },
+  "Zálužní Lhota, škola (ID: Zálužní Lhota, škola_2)": {
+    "hlaseni": "Zálužní Lhota, škola. {pz} Zálužní Lhota.",
+    "soubor": "Zálužní Lhota, škola_2",
+    "line": "231",
+    "stop_id": "Zálužní Lhota, škola_2"
+  },
+  "ZÁLUŽNÍ LHOTA (ID: Zálužní Lhota_2)": {
+    "hlaseni": "Zálužní Lhota. {pz} Šachotín.",
+    "soubor": "Zálužní Lhota_2",
+    "line": "231",
+    "stop_id": "Zálužní Lhota_2"
+  },
+  "ŠACHOTÍN (ID: Šachotín_2)": {
+    "hlaseni": "Šachotín. {pz} Nový Svět, rozcestí.",
+    "soubor": "Šachotín_2",
+    "line": "231",
+    "stop_id": "Šachotín_2"
+  },
+  "NOVÝ SVĚT, ROZC. (ID: Nový Svět, rozc._2)": {
+    "hlaseni": "Nový Svět, rozcestí. {pz} Nový Svět.",
+    "soubor": "Nový Svět, rozc._2",
+    "line": "231",
+    "stop_id": "Nový Svět, rozc._2"
+  },
+  "NOVÝ SVĚT (ID: Nový Svět_2)": {
+    "hlaseni": "Nový Svět. {pz} Nový Svět - Pauza.",
+    "soubor": "Nový Svět_2",
+    "line": "231",
+    "stop_id": "Nový Svět_2"
+  },
+  "Nový Svět - Pauza (konecna)": {
+    "hlaseni": "Nový Svět. {kz}",
+    "soubor": "Nový Svět - Pauza",
+    "line": "231",
+    "stop_id": "Nový Svět - Pauza"
+  }
+}

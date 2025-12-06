@@ -1,0 +1,6 @@
+# Core dependencies
+elevenlabs==0.2.24
+
+# Optional dependencies
+python-dotenv  # For .env file support
+gTTS          # Free Google TTS for testing (enhanced v2)

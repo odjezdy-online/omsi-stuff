@@ -1,0 +1,18 @@
+{
+  "Bukovec nad Luznici, Autobusove nadrazi (konecna) (smer Bukovec nad Luznici, Autobusove nadrazi)": {
+    "hlaseni": "{nz} Zastávka: Bukovec nad Lužnicí, Autobusové nádraží. Přestup na linky S, Ú a další vlakové spoje. {kz} Konečná zastávka, prosíme, vystupte.",
+    "soubor": "31_BnLAuto_KZ"
+  },
+  "Bukovec nad Luznici, Autobusove nadrazi (smer Zaluzni Lhota, nadrazi)": {
+    "hlaseni": "{nz} Linka: Třicet. Jedna. Směr: Zálužní Lhota, nádraží. {pz} Zastávka: Bukovec nad Lužnicí, Autobusové nádraží. Přestup na linky S, Ú a další vlakové spoje. Příští zastávka: Bukovec nad Lužnicí, Husova.",
+    "soubor": "31_BnLAuto_Husova"
+  },
+  "Example with just text": {
+    "hlaseni": "Toto je příklad bez tagů. Pouze normální hlášení.",
+    "soubor": "example_no_tags"
+  },
+  "Example with multiple tags": {
+    "hlaseni": "{nz} První část hlášení. {pz} Druhá část hlášení. {kz} Třetí část hlášení.",
+    "soubor": "example_multiple_tags"
+  }
+}

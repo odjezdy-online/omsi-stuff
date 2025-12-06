@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Environment and Config
+.env
+.env.local
+config.json
+
+# Generated/Cache Files
+tts_cache/
+generated_audio/
+temp_gen/
+*.wav.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific test files
+zastavky_Bukovec_*.json
+zastavky.json.a
